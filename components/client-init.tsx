@@ -5,11 +5,35 @@ import { useEffect } from "react"
 export function ClientInit() {
   useEffect(() => {
     console.log("[v0] ClientInit mounted")
-    console.log("[v0] body bg:", getComputedStyle(document.body).backgroundColor)
-    console.log("[v0] body color:", getComputedStyle(document.body).color)
-    console.log("[v0] --bg value:", getComputedStyle(document.documentElement).getPropertyValue("--bg"))
-    console.log("[v0] hero element:", document.querySelector(".hero"))
-    console.log("[v0] nav element:", document.querySelector(".site-nav"))
+
+    // Debug images
+    const allImgs = document.querySelectorAll("img")
+    console.log("[v0] Total img elements on page:", allImgs.length)
+    allImgs.forEach((img, i) => {
+      console.log(`[v0] img[${i}] src:`, img.src)
+      console.log(`[v0] img[${i}] naturalWidth:`, img.naturalWidth, "naturalHeight:", img.naturalHeight)
+      console.log(`[v0] img[${i}] displayed width:`, img.offsetWidth, "height:", img.offsetHeight)
+      console.log(`[v0] img[${i}] parentElement:`, img.parentElement?.className)
+      console.log(`[v0] img[${i}] complete:`, img.complete)
+      img.addEventListener("error", () => console.log(`[v0] img[${i}] FAILED to load:`, img.src))
+      img.addEventListener("load", () => console.log(`[v0] img[${i}] loaded OK:`, img.src, "natural:", img.naturalWidth, "x", img.naturalHeight))
+    })
+
+    // Check plex visual
+    const plexVisual = document.querySelector(".plex-visual")
+    if (plexVisual) {
+      console.log("[v0] plex-visual dimensions:", plexVisual.clientWidth, "x", plexVisual.clientHeight)
+      const plexImg = plexVisual.querySelector("img")
+      console.log("[v0] plex-visual img:", plexImg?.src, "complete:", plexImg?.complete, "displayed:", plexImg?.offsetWidth, "x", plexImg?.offsetHeight)
+    }
+
+    // Check about photo
+    const aboutPhoto = document.querySelector(".about-photo-frame")
+    if (aboutPhoto) {
+      console.log("[v0] about-photo-frame dimensions:", aboutPhoto.clientWidth, "x", aboutPhoto.clientHeight)
+      const aboutImg = aboutPhoto.querySelector("img")
+      console.log("[v0] about-photo-frame img:", aboutImg?.src, "complete:", aboutImg?.complete, "displayed:", aboutImg?.offsetWidth, "x", aboutImg?.offsetHeight)
+    }
 
     // ===== SCROLL REVEAL =====
     const obs = new IntersectionObserver(

@@ -207,7 +207,7 @@
 .about-grid { display: grid; grid-template-columns: 0.8fr 1fr; gap: 5rem; align-items: start; }
 .about-photo { position: relative; }
 .about-photo-frame { aspect-ratio: 3/4; background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; display: flex; align-items: center; justify-content: center; position: relative; }
-.about-photo-frame::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(246,244,240,0.5) 0%, transparent 40%); }
+.about-photo-frame::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(246,244,240,0.2) 0%, transparent 30%); z-index: 1; pointer-events: none; }
 .about-photo-accent { position: absolute; top: -10px; left: -10px; width: 80px; height: 80px; border-top: 2px solid var(--accent); border-left: 2px solid var(--accent); border-radius: var(--radius); }
 .about-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 2rem; }
 .about-tag { padding: 0.4rem 1rem; background: var(--accent-glow); border: 1px solid rgba(8, 145, 178, 0.15); border-radius: 2px; font-size: 0.7rem; font-weight: 500; color: var(--accent-dark); letter-spacing: 0.03em; }

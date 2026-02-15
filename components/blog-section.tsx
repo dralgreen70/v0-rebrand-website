@@ -4,7 +4,7 @@ const posts = [
     date: "FEBRUARY 11, 2026",
     title: "The Biomarker Question: How Do We Measure Success with Therapeutic Plasma Exchange?",
     excerpt: "Therapeutic plasma exchange produces measurable changes in biological age clocks, inflammatory proteins, and environmental toxins.",
-    image: "/images/lab-tests.webp",
+    image: "/images/lab-tests.jpg",
     imageAlt: "Blood sample test tubes in a laboratory rack for biomarker analysis",
   },
   {
@@ -12,7 +12,7 @@ const posts = [
     date: "JANUARY 5, 2026",
     title: "AMBAR Study Part 3: Plasma Exchange Slows Alzheimer's Decline Regardless of Amyloid Status",
     excerpt: "The game-changing finding: 30% of AMBAR patients were amyloid-negative yet benefited equally from plasma exchange treatment.",
-    image: "/images/generational-memories.webp",
+    image: "/images/generational-memories.jpg",
     imageAlt: "An elderly father and adult son sharing a warm embrace",
   },
   {
@@ -20,7 +20,7 @@ const posts = [
     date: "DECEMBER 14, 2025",
     title: "The Blood Revolution: How Scientists Discovered That Aging Lives in Your Blood",
     excerpt: "In 2005, a team of scientists at Stanford performed an experiment that sounds like science fiction, connecting the circulatory systems of old and young mice.",
-    image: "/images/blood-cells.webp",
+    image: "/images/blood-cells.jpg",
     imageAlt: "Close-up 3D rendering of red blood cells",
   },
 ]

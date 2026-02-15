@@ -4,14 +4,19 @@ export function PlexSection() {
       <div className="site-container">
         <div className="plex-grid">
           <div className="plex-visual reveal-left">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Me_Receiving_PLEX-69hcDq11DxsKWNVBmYWPnNPRMhjkt5.jpg"
               alt="Dr. Allen P. Green receiving a therapeutic plasma exchange procedure with the Amicus Separator"
+              loading="eager"
               style={{
                 width: "100%",
                 height: "100%",
                 objectFit: "cover",
-                objectPosition: "center",
+                objectPosition: "center top",
+                display: "block",
+                position: "relative",
+                zIndex: 1,
               }}
             />
             <div className="plex-visual-label">

@@ -13,16 +13,18 @@ export function AboutSection() {
         <div className="about-grid">
           <div className="about-photo reveal-left">
             <div className="about-photo-frame">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Me%20and%20Amicus-wnEHnNPOb8JMhWe2ZoYwxZ6CwByj51.jpg"
                 alt="Dr. Allen P. Green, MD standing with the Amicus Separator apheresis machine"
+                loading="eager"
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "cover",
                   objectPosition: "center top",
                   position: "relative",
-                  zIndex: 1,
+                  zIndex: 2,
                 }}
               />
             </div>
@@ -73,9 +75,11 @@ export function AboutSection() {
               Kiprov.
             </p>
             <div style={{ marginTop: "1.5rem", borderRadius: "var(--radius)", overflow: "hidden", border: "1px solid var(--border)" }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dobri_and_I_GA-xWLrNYBYXjhg6A3hSnBJIr0tsauWLO.jpeg"
                 alt="Dr. Allen P. Green with Dr. Dobri Kiprov at Global Apheresis"
+                loading="eager"
                 style={{
                   width: "100%",
                   height: "auto",
