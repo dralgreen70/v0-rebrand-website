@@ -14,7 +14,7 @@ export function AboutSection() {
           <div className="about-photo reveal-left">
             <div className="about-photo-frame">
               <img
-                src="/images/me-and-amicus.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Me%20and%20Amicus-wnEHnNPOb8JMhWe2ZoYwxZ6CwByj51.jpg"
                 alt="Dr. Allen P. Green, MD standing with the Amicus Separator apheresis machine"
                 style={{
                   width: "100%",
@@ -74,7 +74,7 @@ export function AboutSection() {
             </p>
             <div style={{ marginTop: "1.5rem", borderRadius: "var(--radius)", overflow: "hidden", border: "1px solid var(--border)" }}>
               <img
-                src="/images/dobri-and-i-ga.jpg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dobri_and_I_GA-xWLrNYBYXjhg6A3hSnBJIr0tsauWLO.jpeg"
                 alt="Dr. Allen P. Green with Dr. Dobri Kiprov at Global Apheresis"
                 style={{
                   width: "100%",
