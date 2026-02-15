@@ -14,8 +14,8 @@ export function AboutSection() {
           <div className="about-photo reveal-left">
             <div className="about-photo-frame">
               <img
-                src="/images/hero-dr-plex.webp"
-                alt="Dr. Allen P. Green, MD - Board-Certified Clinical Pathologist and PLEX Specialist"
+                src="/images/me-and-amicus.jpg"
+                alt="Dr. Allen P. Green, MD standing with the Amicus Separator apheresis machine"
                 style={{
                   width: "100%",
                   height: "100%",
@@ -37,7 +37,7 @@ export function AboutSection() {
           </div>
           <div className="reveal-right">
             <div className="section-label-line">
-              <span className="label-text">Meet Dr. Plex</span>
+              <span className="label-text">Meet Dr. Green</span>
             </div>
             <h2 className="h-lg">
               Dr. Allen P.{" "}
@@ -72,6 +72,20 @@ export function AboutSection() {
               established a professional relationship with pioneer Dr. Dobri
               Kiprov.
             </p>
+            <div style={{ marginTop: "1.5rem", borderRadius: "var(--radius)", overflow: "hidden", border: "1px solid var(--border)" }}>
+              <img
+                src="/images/dobri-and-i-ga.jpg"
+                alt="Dr. Allen P. Green with Dr. Dobri Kiprov at Global Apheresis"
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  display: "block",
+                }}
+              />
+              <div style={{ padding: "0.75rem 1rem", background: "var(--accent-glow)", fontSize: "0.8rem", color: "var(--text-secondary)" }}>
+                Dr. Green with Dr. Dobri Kiprov at Global Apheresis
+              </div>
+            </div>
             <p className="body-md" style={{ marginTop: "1rem" }}>
               With over 100 TPE procedures focused on biological age reversal
               and prevention of age-related diseases, Dr. Green is scaling

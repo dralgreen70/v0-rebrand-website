@@ -33,9 +33,9 @@ export function Navbar() {
       />
       <nav className={`site-nav${scrolled ? " scrolled" : ""}`}>
         <a href="#" className="nav-brand">
-          <span className="nav-mark">DP</span>
+          <span className="nav-mark">AG</span>
           <span className="nav-brand-text">
-            Dr<span>PLEX</span>MD
+            Dr. Allen P. <span>Green</span>, MD
           </span>
         </a>
         <ul className={`nav-links${menuOpen ? " open" : ""}`}>

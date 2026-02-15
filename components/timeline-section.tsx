@@ -15,7 +15,7 @@ export function TimelineSection() {
             <span className="label-text">Career Journey</span>
           </div>
           <h2 className="h-lg reveal">
-            The Path to <span className="serif-italic accent-text">Dr. Plex</span>
+            The Path to <span className="serif-italic accent-text">Dr. Green</span>
           </h2>
         </div>
         <div className="timeline">

@@ -5,8 +5,8 @@ export function PlexSection() {
         <div className="plex-grid">
           <div className="plex-visual reveal-left">
             <img
-              src="/images/plex-treatment.png"
-              alt="Dr. Green undergoing a therapeutic plasma exchange procedure with the Amicus Separator"
+              src="/images/me-receiving-plex.jpg"
+              alt="Dr. Allen P. Green receiving a therapeutic plasma exchange procedure with the Amicus Separator"
               style={{
                 width: "100%",
                 height: "100%",

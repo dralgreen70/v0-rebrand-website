@@ -49,7 +49,7 @@ export function HeroSection() {
               <div className="hero-visual-initials">AG</div>
               <div className="hero-visual-name">Dr. Allen P. Green</div>
               <div className="hero-visual-title">
-                {'a.k.a. "Dr. Plex"'}
+                {'Board-Certified Clinical Pathologist'}
               </div>
             </div>
           </div>

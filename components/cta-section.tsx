@@ -25,11 +25,11 @@ export function CTASection() {
           in-person options available.
         </p>
         <div className="cta-actions reveal">
-          <a href="https://drplexmd.com/contact/" className="btn btn-accent">
+          <a href="#contact" className="btn btn-accent">
             Schedule Discovery Call <span className="arrow">&rarr;</span>
           </a>
           <a href="mailto:info@drplexmd.com" className="btn btn-light">
-            Email Dr. Green
+            Email Dr. Green, MD
           </a>
         </div>
       </div>

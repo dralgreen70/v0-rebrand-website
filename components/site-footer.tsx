@@ -3,7 +3,7 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="footer-inner">
         <a href="#" className="footer-brand">
-          Dr<span>PLEX</span>MD
+          Dr. Allen P. <span>Green</span>, MD
         </a>
         <ul className="footer-links">
           <li><a href="#about">About</a></li>
@@ -17,7 +17,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="footer-bottom">
-        &copy; 2026 DrPLEXMD. All rights reserved.
+        &copy; 2026 Dr. Allen P. Green, MD. All rights reserved.
       </div>
     </footer>
   )

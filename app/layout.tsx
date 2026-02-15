@@ -9,9 +9,9 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "DrPLEXMD | Dr. Allen P. Green - Therapeutic Plasma Exchange",
+  title: "Dr. Allen P. Green, MD | Therapeutic Plasma Exchange Specialist",
   description:
-    "Dr. Allen P. Green specializes in Therapeutic Plasma Exchange (PLEX), a groundbreaking procedure for health optimization and longevity.",
+    "Dr. Allen P. Green, MD specializes in Therapeutic Plasma Exchange (PLEX), a groundbreaking procedure for health optimization and longevity.",
 }
 
 export default function RootLayout({
