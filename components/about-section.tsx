@@ -144,7 +144,7 @@ export function AboutSection() {
             </p>
 
             <p style={{ fontSize: "0.95rem", color: "var(--text-secondary)", lineHeight: 1.7, marginTop: "1rem" }}>
-              With over 100 TPE procedures focused on biological age reversal
+              With over 500 TPE procedures focused on biological age reversal
               and prevention of age-related diseases, Dr. Green is scaling
               therapeutic plasma exchange through clinical practice, protocol
               development, and physician education.
