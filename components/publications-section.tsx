@@ -1,9 +1,49 @@
 const pubs = [
-  { type: "Journal Article", html: 'Yates SG, Hofmann SL, Ibrahim IF, Shen YMP, <strong>Green AP</strong>, Sarode R. Tailoring caplacizumab administration using ADAMTS13 activity for immune-mediated thrombotic thrombocytopenic purpura. <em>Blood Vessels, Thrombosis &amp; Hemostasis.</em> 2024.' },
-  { type: "Journal Article", html: '<strong>Green A</strong>, Jones H, Nero A, Ibrahim IF, Sarode R, et al. A case of hyperhemolysis syndrome in sickle cell disease and concomitant COVID-19. <em>Transfus Apher Sci.</em> 2023.' },
-  { type: "Journal Article", html: '<strong>Green A</strong>, Shen YP, Nelson AT, Sarode R, et al. Successful use of lenalidomide to treat refractory acquired von Willebrand disease associated with monoclonal gammopathy. <em>Ann Hematol.</em> 2022.' },
-  { type: "Oral Presentation", html: '<strong>Green A</strong>, et al. Continued unfractionated heparin infusion during therapeutic plasma exchange: A retrospective analysis. <em>American Society for Apheresis Annual Conference.</em> April 2024, Las Vegas.' },
-  { type: "Invited Lecture", html: '"Therapeutic Plasma Exchange: A Deep Dive into Mechanisms and Therapeutic Potential." <em>Update in Pathophysiology, Department of Pathology, UT Southwestern.</em> February 2024.' },
+  {
+    type: "Journal Article",
+    year: "2024",
+    title: "Tailoring Caplacizumab Administration Using ADAMTS13 Activity for Immune-Mediated Thrombotic Thrombocytopenic Purpura",
+    authors: "Yates SG, Hofmann SL, Ibrahim IF, Shen YMP, Green AP, Sarode R",
+    journal: "Blood Vessels, Thrombosis & Hemostasis",
+    desc: "Demonstrates a personalized approach to caplacizumab dosing guided by ADAMTS13 activity monitoring, optimizing treatment outcomes in iTTP.",
+    link: "#",
+  },
+  {
+    type: "Journal Article",
+    year: "2023",
+    title: "A Case of Hyperhemolysis Syndrome in Sickle Cell Disease and Concomitant COVID-19",
+    authors: "Green A, Jones H, Nero A, Ibrahim IF, Sarode R, et al.",
+    journal: "Transfusion and Apheresis Science",
+    desc: "Reports a novel case highlighting the intersection of hyperhemolysis syndrome in sickle cell disease complicated by concurrent SARS-CoV-2 infection.",
+    link: "https://pubmed.ncbi.nlm.nih.gov/36344377/",
+  },
+  {
+    type: "Journal Article",
+    year: "2022",
+    title: "Successful Use of Lenalidomide to Treat Refractory Acquired von Willebrand Disease Associated with Monoclonal Gammopathy",
+    authors: "Green A, Shen YP, Nelson AT, Sarode R, et al.",
+    journal: "Annals of Hematology",
+    desc: "First reported use of lenalidomide for refractory acquired von Willebrand disease in the setting of monoclonal gammopathy, demonstrating a novel therapeutic approach.",
+    link: "https://link.springer.com/article/10.1007/s00277-022-04991-9",
+  },
+  {
+    type: "Oral Presentation",
+    year: "2024",
+    title: "Continued Unfractionated Heparin Infusion During Therapeutic Plasma Exchange: A Retrospective Analysis",
+    authors: "Green A, et al.",
+    journal: "American Society for Apheresis Annual Conference, Las Vegas",
+    desc: "Retrospective analysis evaluating the safety and efficacy of maintaining heparin infusions during TPE procedures, informing best practices for anticoagulation management.",
+    link: "#",
+  },
+  {
+    type: "Invited Lecture",
+    year: "2024",
+    title: "Therapeutic Plasma Exchange: A Deep Dive into Mechanisms and Therapeutic Potential",
+    authors: "Green AP",
+    journal: "Update in Pathophysiology, Department of Pathology, UT Southwestern",
+    desc: "Comprehensive invited lecture covering the mechanistic basis of TPE and its expanding therapeutic applications across longevity and disease management.",
+    link: "#",
+  },
 ]
 
 export function PublicationsSection() {
@@ -24,16 +64,30 @@ export function PublicationsSection() {
             6 PUBLICATIONS / 3 ABSTRACTS / 2 PRESENTATIONS
           </div>
         </div>
-        <div className="pub-list">
+        <div className="pub-cards-grid">
           {pubs.map((p, i) => (
-            <div key={i} className="pub-item reveal">
-              <div
-                className="label-text pub-type"
-                style={{ color: "var(--accent)", marginBottom: "0.75rem" }}
-              >
-                {p.type}
+            <div key={i} className={`pub-card reveal reveal-d${(i % 3) + 1}`}>
+              <div className="pub-card-header">
+                <span className="pub-card-type">{p.type}</span>
+                <span className="pub-card-year">{p.year}</span>
               </div>
-              <p dangerouslySetInnerHTML={{ __html: p.html }} />
+              <div className="pub-card-body">
+                <h3 className="pub-card-title">{p.title}</h3>
+                <p className="pub-card-authors">{p.authors}</p>
+                <p className="pub-card-journal">{p.journal}</p>
+                <p className="pub-card-desc">{p.desc}</p>
+                <a
+                  href={p.link}
+                  target={p.link !== "#" ? "_blank" : undefined}
+                  rel={p.link !== "#" ? "noopener noreferrer" : undefined}
+                  className="pub-card-link"
+                >
+                  {p.link === "#" ? "Link Coming Soon" : "View Paper"}
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M7 17L17 7" /><path d="M7 7h10v10" />
+                  </svg>
+                </a>
+              </div>
             </div>
           ))}
         </div>

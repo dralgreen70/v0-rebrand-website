@@ -242,11 +242,19 @@
 
 /* ===== PUBLICATIONS ===== */
 .publications-section { background: var(--bg); }
-.pub-list { display: grid; gap: 1rem; margin-top: 2rem; }
-.pub-item { padding: 1.75rem 2rem; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); transition: all 0.3s; cursor: default; }
-.pub-item:hover { border-color: var(--accent-glow-strong); box-shadow: 0 4px 20px rgba(0,0,0,0.04); }
-.pub-item p { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; }
-.pub-item .pub-type { display: inline-block; margin-bottom: 0.5rem; }
+.pub-cards-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem; }
+.pub-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; transition: all 0.4s; }
+.pub-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.08); border-color: var(--accent-glow-strong); }
+.pub-card-header { display: flex; justify-content: space-between; align-items: center; padding: 1rem 1.5rem; background: var(--bg-dark); border-bottom: 1px solid var(--border); }
+.pub-card-type { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-light); background: rgba(8,145,178,0.12); padding: 0.25rem 0.6rem; border-radius: 999px; border: 1px solid rgba(8,145,178,0.2); }
+.pub-card-year { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: rgba(255,255,255,0.5); letter-spacing: 0.05em; }
+.pub-card-body { padding: 1.5rem; flex: 1; display: flex; flex-direction: column; gap: 0.4rem; }
+.pub-card-title { font-family: 'Instrument Serif', serif; font-size: 1.05rem; font-weight: 400; color: var(--text); line-height: 1.35; }
+.pub-card-authors { font-size: 0.78rem; color: var(--text-muted); line-height: 1.5; }
+.pub-card-journal { font-size: 0.78rem; font-style: italic; color: var(--accent); line-height: 1.4; }
+.pub-card-desc { font-size: 0.82rem; color: var(--text-secondary); line-height: 1.6; margin-top: 0.5rem; flex: 1; }
+.pub-card-link { font-size: 0.78rem; font-weight: 600; color: var(--accent); margin-top: 0.75rem; display: inline-flex; align-items: center; gap: 0.4rem; text-decoration: none; transition: gap 0.3s; }
+.pub-card-link:hover { gap: 0.6rem; }
 
 /* ===== BLOG ===== */
 .blog-section { background: var(--bg-alt); }
@@ -310,6 +318,7 @@
   .process-step:nth-child(2) { border-right: none; }
   .about-grid { grid-template-columns: 1fr; gap: 3rem; }
   .about-photo { max-width: 350px; margin: 0 auto; }
+  .pub-cards-grid { grid-template-columns: 1fr 1fr; }
   .blog-grid { grid-template-columns: 1fr; }
   .timeline-with-photo { grid-template-columns: 1fr; }
   .timeline-photo { max-width: 340px; margin: 0 auto; }
@@ -353,6 +362,7 @@
   .plex-visual { height: 250px; order: -1; }
   .apheresis-cards { grid-template-columns: 1fr; }
   .apheresis-portfolio { margin-top: 3rem; padding-top: 3rem; }
+  .pub-cards-grid { grid-template-columns: 1fr; }
   .benefits-grid { grid-template-columns: 1fr; gap: 1rem; }
   .benefit-card { padding: 2rem 1.5rem; }
   .benefit-card:hover { transform: none; }
