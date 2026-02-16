@@ -109,9 +109,7 @@ export function PublicationsSection() {
               <span className="serif-italic accent-text">Publications</span>
             </h2>
           </div>
-          <div className="section-number reveal">
-            9 PUBLICATIONS / 2 ABSTRACTS / 2 PRESENTATIONS
-          </div>
+
         </div>
         <div className="pub-cards-grid">
           {pubs.map((p, i) => (
