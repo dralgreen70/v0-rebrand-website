@@ -386,6 +386,98 @@
   .footer-contact { text-align: center; }
 }
 
+/* ===== BLOG POST PAGE ===== */
+.post-page, .journal-page { background: var(--bg); min-height: 100vh; }
+.post-nav { position: sticky; top: 0; z-index: 100; background: rgba(246,244,240,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+.post-nav-inner { max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; }
+.post-nav-brand { text-decoration: none; font-weight: 700; font-size: 0.85rem; color: var(--text); display: flex; align-items: center; gap: 0.5rem; }
+.post-nav-brand span { color: var(--accent); }
+.post-nav-mark { width: 28px; height: 28px; border-radius: 50%; background: var(--bg-dark); color: var(--accent-light); display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.05em; }
+.post-nav-back { text-decoration: none; font-size: 0.8rem; font-weight: 600; color: var(--accent); display: flex; align-items: center; gap: 0.4rem; transition: gap 0.3s; }
+.post-nav-back:hover { gap: 0.6rem; }
+
+/* Post Hero */
+.post-hero { background: var(--bg-dark); color: white; padding: 6rem 2rem 4rem; text-align: center; }
+.post-hero-inner { max-width: 720px; margin: 0 auto; }
+.post-hero-meta { display: flex; align-items: center; justify-content: center; gap: 0.75rem; font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 1.5rem; }
+.post-hero-divider { color: rgba(255,255,255,0.2); }
+.post-hero-readtime { color: var(--accent-light); }
+.post-hero-title { font-family: 'Instrument Serif', serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 400; line-height: 1.15; color: white; margin-bottom: 1.25rem; }
+.post-hero-excerpt { font-size: 1.05rem; color: rgba(255,255,255,0.6); line-height: 1.7; max-width: 600px; margin: 0 auto 2rem; }
+.post-hero-author { display: flex; align-items: center; gap: 0.75rem; justify-content: center; }
+.post-hero-author-avatar { width: 40px; height: 40px; border-radius: 50%; background: rgba(8,145,178,0.15); border: 1px solid rgba(8,145,178,0.3); display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 700; color: var(--accent-light); letter-spacing: 0.05em; }
+.post-hero-author-name { font-weight: 600; font-size: 0.85rem; color: white; }
+.post-hero-author-role { font-size: 0.72rem; color: rgba(255,255,255,0.45); margin-top: 0.15rem; }
+
+/* Post Content */
+.post-content-wrapper { max-width: 720px; margin: 0 auto; padding: 4rem 2rem; }
+.post-content h1 { font-family: 'Instrument Serif', serif; font-size: 2rem; font-weight: 400; color: var(--text); margin: 2.5rem 0 1rem; line-height: 1.2; }
+.post-content h2 { font-family: 'Instrument Serif', serif; font-size: 1.6rem; font-weight: 400; color: var(--text); margin: 2.5rem 0 0.75rem; line-height: 1.25; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+.post-content h3 { font-size: 1.15rem; font-weight: 700; color: var(--text); margin: 2rem 0 0.5rem; }
+.post-content p { font-size: 1rem; color: var(--text-secondary); line-height: 1.8; margin-bottom: 1.25rem; }
+.post-content strong { color: var(--text); font-weight: 600; }
+.post-content em { font-style: italic; }
+.post-content a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.post-content a:hover { color: var(--text); }
+.post-content blockquote { border-left: 3px solid var(--accent); padding: 1rem 1.5rem; margin: 1.5rem 0; background: var(--bg-alt); border-radius: 0 var(--radius) var(--radius) 0; }
+.post-content blockquote p { color: var(--text); font-style: italic; margin-bottom: 0; }
+.post-content ul, .post-content ol { margin: 1rem 0 1.5rem 1.5rem; }
+.post-content li { font-size: 1rem; color: var(--text-secondary); line-height: 1.8; margin-bottom: 0.35rem; }
+.post-content code { font-family: 'JetBrains Mono', monospace; font-size: 0.85em; background: var(--bg-alt); padding: 0.15em 0.4em; border-radius: 4px; color: var(--accent); }
+.post-content pre { background: var(--bg-dark); border-radius: var(--radius); padding: 1.5rem; margin: 1.5rem 0; overflow-x: auto; }
+.post-content pre code { background: none; padding: 0; color: rgba(255,255,255,0.8); font-size: 0.85rem; }
+.post-content hr { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+.post-content img { width: 100%; height: auto; border-radius: var(--radius); margin: 1.5rem 0; }
+
+/* Share Section */
+.post-share-section { border-top: 1px solid var(--border); background: var(--bg-alt); }
+.post-share-inner { max-width: 720px; margin: 0 auto; padding: 2.5rem 2rem; text-align: center; }
+.post-share-heading { font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-bottom: 1.25rem; }
+.post-share-buttons { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; }
+.post-share-btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.6rem 1.25rem; border: 1px solid var(--border); border-radius: 999px; font-size: 0.78rem; font-weight: 600; color: var(--text-secondary); text-decoration: none; transition: all 0.3s; background: var(--card); }
+.post-share-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+/* Author Bio */
+.post-author-bio { background: var(--bg); border-top: 1px solid var(--border); }
+.post-author-bio-inner { max-width: 720px; margin: 0 auto; padding: 3rem 2rem; display: flex; gap: 1.5rem; align-items: flex-start; }
+.post-author-bio-avatar { width: 56px; height: 56px; border-radius: 50%; background: var(--bg-dark); color: var(--accent-light); display: flex; align-items: center; justify-content: center; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.05em; flex-shrink: 0; }
+.post-author-bio-text h3 { font-size: 1rem; font-weight: 700; color: var(--text); margin-bottom: 0.5rem; }
+.post-author-bio-text p { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; }
+
+/* Related Posts */
+.post-related { background: var(--bg-alt); border-top: 1px solid var(--border); }
+.post-related-inner { max-width: 1100px; margin: 0 auto; padding: 4rem 2rem; }
+.post-related-heading { font-family: 'Instrument Serif', serif; font-size: 1.5rem; color: var(--text); margin-bottom: 2rem; text-align: center; }
+.post-related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+.post-related-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.75rem; text-decoration: none; color: var(--text); transition: all 0.3s; display: flex; flex-direction: column; }
+.post-related-card:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(0,0,0,0.06); border-color: var(--accent-glow-strong); }
+.post-related-date { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; color: var(--text-muted); text-transform: uppercase; margin-bottom: 0.5rem; }
+.post-related-card h4 { font-size: 0.95rem; font-weight: 600; line-height: 1.4; margin-bottom: 0.5rem; }
+.post-related-card p { font-size: 0.82rem; color: var(--text-secondary); line-height: 1.5; flex: 1; }
+.post-related-link { font-size: 0.78rem; font-weight: 600; color: var(--accent); margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.3rem; }
+
+/* Post Footer */
+.post-footer { text-align: center; padding: 3rem 2rem; background: var(--bg); border-top: 1px solid var(--border); }
+.post-footer .btn { display: inline-flex; align-items: center; gap: 0.5rem; }
+
+/* Journal Listing Page */
+.journal-header { padding: 6rem 2rem 3rem; background: var(--bg-alt); text-align: center; }
+.journal-header-inner { max-width: 600px; margin: 0 auto; }
+.journal-header-sub { font-size: 1rem; color: var(--text-secondary); line-height: 1.7; margin-top: 1rem; }
+.journal-grid-section { padding: 3rem 0 4rem; }
+
+/* Post page mobile */
+@media (max-width: 768px) {
+  .post-hero { padding: 5rem 1.5rem 3rem; }
+  .post-hero-title { font-size: 1.75rem; }
+  .post-content-wrapper { padding: 2.5rem 1.5rem; }
+  .post-related-grid { grid-template-columns: 1fr; }
+  .post-author-bio-inner { flex-direction: column; align-items: center; text-align: center; }
+  .post-share-inner { padding: 2rem 1.5rem; }
+  .post-related-inner { padding: 3rem 1.5rem; }
+  .journal-header { padding: 5rem 1.5rem 2.5rem; }
+}
+
 /* ===== SMALL ===== */
 @media (max-width: 400px) {
   .h-display { font-size: 2rem; }
