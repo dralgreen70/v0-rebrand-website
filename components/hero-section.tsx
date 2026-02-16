@@ -4,19 +4,21 @@ export function HeroSection() {
       <div className="hero-left">
         <div className="hero-label">
           <div className="dot" />
-          <span>Board-Certified Clinical Pathologist</span>
+          <span>The Science of Renewal</span>
         </div>
         <h1 className="h-display">
-          <span className="line">The Science</span>
+          <span className="line">Dr. Allen P.</span>
           <span className="line">
-            of <span className="serif-italic accent-text">Renewal</span>
+            <span className="serif-italic accent-text">Green</span>, MD
           </span>
         </h1>
+        <p className="hero-sub-role">
+          Associate Medical Director, Global Apheresis
+        </p>
         <p className="hero-sub">
-          Dr. Allen P. Green specializes in Therapeutic Plasma Exchange (PLEX),
-          a groundbreaking procedure that clears age-related compounds, reduces
-          inflammation, and activates stem cells for enhanced health and
-          longevity.
+          Specialist in Therapeutic Plasma Exchange & Full-Spectrum Apheresis
+          {" \u2013 "}Advancing precision care for longevity, {"Alzheimer's"},
+          inflammation, and autoimmune disorders.
         </p>
         <div className="hero-actions">
           <a href="#contact" className="btn btn-primary">
@@ -26,18 +28,22 @@ export function HeroSection() {
             Learn About PLEX
           </a>
         </div>
-        <div className="hero-stats">
-          <div>
-            <div className="hero-stat-num">100+</div>
-            <div className="hero-stat-label">TPE Procedures Performed</div>
+        <div className="hero-trust">
+          <div className="hero-trust-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1l2 4.5 5 .5-3.75 3.25L12.5 14 8 11.5 3.5 14l1.25-4.75L1 6l5-.5L8 1z" fill="var(--accent)" /></svg>
+            <span>Associate Medical Director, Global Apheresis</span>
           </div>
-          <div>
-            <div className="hero-stat-num">6+</div>
-            <div className="hero-stat-label">Published Research Papers</div>
+          <div className="hero-trust-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1l2 4.5 5 .5-3.75 3.25L12.5 14 8 11.5 3.5 14l1.25-4.75L1 6l5-.5L8 1z" fill="var(--accent)" /></svg>
+            <span>Mentored by Dr. Dobri Kiprov</span>
           </div>
-          <div>
-            <div className="hero-stat-num">UT</div>
-            <div className="hero-stat-label">Southwestern Trained</div>
+          <div className="hero-trust-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1l2 4.5 5 .5-3.75 3.25L12.5 14 8 11.5 3.5 14l1.25-4.75L1 6l5-.5L8 1z" fill="var(--accent)" /></svg>
+            <span>Board-Certified Clinical Pathologist</span>
+          </div>
+          <div className="hero-trust-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1l2 4.5 5 .5-3.75 3.25L12.5 14 8 11.5 3.5 14l1.25-4.75L1 6l5-.5L8 1z" fill="var(--accent)" /></svg>
+            <span>100+ TPE Procedures Performed</span>
           </div>
         </div>
       </div>
