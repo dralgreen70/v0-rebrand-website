@@ -76,17 +76,19 @@ export function PublicationsSection() {
                 <p className="pub-card-authors">{p.authors}</p>
                 <p className="pub-card-journal">{p.journal}</p>
                 <p className="pub-card-desc">{p.desc}</p>
-                <a
-                  href={p.link}
-                  target={p.link !== "#" ? "_blank" : undefined}
-                  rel={p.link !== "#" ? "noopener noreferrer" : undefined}
-                  className="pub-card-link"
-                >
-                  {p.link === "#" ? "Link Coming Soon" : "View Paper"}
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M7 17L17 7" /><path d="M7 7h10v10" />
-                  </svg>
-                </a>
+                {p.link !== "#" && (
+                  <a
+                    href={p.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pub-card-link"
+                  >
+                    View Paper
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M7 17L17 7" /><path d="M7 7h10v10" />
+                    </svg>
+                  </a>
+                )}
               </div>
             </div>
           ))}
