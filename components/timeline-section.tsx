@@ -3,7 +3,7 @@ const events = [
   { year: "2020", title: "UT Southwestern Residency", desc: "Entered clinical pathology residency, gaining expertise in apheresis technologies under field leaders including Dr. Ravi Sarode. Supervised and performed hundreds of apheresis procedures." },
   { year: "2024", title: "Stem Cells & Cancer Care", desc: "Joined a bone marrow transplant group, collecting stem cells via apheresis for the treatment of blood cancers, including acute leukemias and multiple myeloma." },
   { year: "2025", title: "Lifespan Edge", desc: "Launched and scaled the flagship longevity clinic in Dallas, TX, from 0 to 50 therapeutic plasma exchange procedures per month." },
-  { year: "2026+", title: "Associate Medical Director, Global Apheresis", desc: "Leading comprehensive apheresis programs utilizing therapeutic plasma exchange, cellular collections and depletions, and emerging lipid apheresis technologies for longevity, health optimization, and preventative medicine." },
+  { year: "2026+", title: "Associate Medical Director, Global Apheresis", desc: "Leading comprehensive apheresis programs at Global Apheresis utilizing therapeutic plasma exchange, cellular collection technologies, and emerging lipid apheresis. Partnering with biotechnology companies to develop novel stem cell protocols for longevity, health optimization, and preventative medicine. Additionally serving as medical director for Global Apheresis affiliate clinic partnerships, providing clinical training, protocol development, and quality oversight to expand access to therapeutic apheresis nationwide." },
 ]
 
 export function TimelineSection() {
