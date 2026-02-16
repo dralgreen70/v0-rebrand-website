@@ -7,9 +7,8 @@ export function HeroSection() {
           <span>The Science of Renewal</span>
         </div>
         <h1 className="h-display">
-          <span className="line">Dr. Allen P.</span>
           <span className="line">
-            <span className="serif-italic accent-text">Green</span>, MD
+            Dr. Allen P. <span className="serif-italic accent-text">Green</span>, MD
           </span>
         </h1>
         <p className="hero-sub-role">
