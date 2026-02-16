@@ -69,60 +69,72 @@ export function PlexSection() {
 
           <div className="apheresis-cards">
             {/* Card 1: TPE/PLEX */}
-            <div className="apheresis-card">
-              <div className="apheresis-card-icon">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent-light)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 2v6l3-3" /><path d="M12 2v6l-3-3" />
-                  <path d="M12 22v-6l3 3" /><path d="M12 22v-6l-3 3" />
-                  <circle cx="12" cy="12" r="3" />
-                  <path d="M2 12h6" /><path d="M16 12h6" />
-                </svg>
+            <div className="apheresis-card reveal reveal-d1">
+              <div className="apheresis-card-header">
+                <div className="apheresis-card-icon">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent-light)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 2v6l3-3" /><path d="M12 2v6l-3-3" />
+                    <path d="M12 22v-6l3 3" /><path d="M12 22v-6l-3 3" />
+                    <circle cx="12" cy="12" r="3" />
+                    <path d="M2 12h6" /><path d="M16 12h6" />
+                  </svg>
+                </div>
               </div>
-              <h4 className="apheresis-card-title">
-                Therapeutic Plasma Exchange
-                <span className="apheresis-abbr">TPE / PLEX</span>
-              </h4>
-              <p className="apheresis-card-desc">
-                Complete plasma removal and replacement with 5% albumin solution
-                to clear inflammatory cytokines, oxidized proteins, and
-                senescent factors that accelerate aging and disease.
-              </p>
-              <span className="apheresis-badge apheresis-badge-primary">Flagship Service</span>
+              <div className="apheresis-card-body">
+                <h4 className="apheresis-card-title">
+                  Therapeutic Plasma Exchange
+                  <span className="apheresis-abbr">TPE / PLEX</span>
+                </h4>
+                <p className="apheresis-card-desc">
+                  Complete plasma removal and replacement with 5% albumin solution
+                  to clear inflammatory cytokines, oxidized proteins, and
+                  senescent factors that accelerate aging and disease.
+                </p>
+                <span className="apheresis-badge apheresis-badge-primary">Flagship Service</span>
+              </div>
             </div>
 
             {/* Card 2: Lipid Apheresis */}
-            <div className="apheresis-card">
-              <div className="apheresis-card-icon">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent-light)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z" />
-                </svg>
+            <div className="apheresis-card reveal reveal-d2">
+              <div className="apheresis-card-header">
+                <div className="apheresis-card-icon">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent-light)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z" />
+                  </svg>
+                </div>
               </div>
-              <h4 className="apheresis-card-title">Lipid Apheresis</h4>
-              <p className="apheresis-card-desc">
-                Targeted removal of excess lipids for refractory
-                hypercholesterolemia and cardiovascular risk reduction.
-              </p>
-              <span className="apheresis-badge apheresis-badge-expanding">Expanding Soon</span>
+              <div className="apheresis-card-body">
+                <h4 className="apheresis-card-title">Lipid Apheresis</h4>
+                <p className="apheresis-card-desc">
+                  Targeted removal of excess lipids for refractory
+                  hypercholesterolemia and cardiovascular risk reduction.
+                </p>
+                <span className="apheresis-badge apheresis-badge-expanding">Expanding Soon</span>
+              </div>
             </div>
 
             {/* Card 3: Cellular Collections */}
-            <div className="apheresis-card">
-              <div className="apheresis-card-icon">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent-light)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <circle cx="12" cy="12" r="10" />
-                  <circle cx="12" cy="12" r="4" />
-                  <path d="M12 2v4" /><path d="M12 18v4" />
-                  <path d="M2 12h4" /><path d="M18 12h4" />
-                </svg>
+            <div className="apheresis-card reveal reveal-d3">
+              <div className="apheresis-card-header">
+                <div className="apheresis-card-icon">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--accent-light)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <circle cx="12" cy="12" r="4" />
+                    <path d="M12 2v4" /><path d="M12 18v4" />
+                    <path d="M2 12h4" /><path d="M18 12h4" />
+                  </svg>
+                </div>
               </div>
-              <h4 className="apheresis-card-title">
-                Cellular Collections & Regenerative Research
-              </h4>
-              <p className="apheresis-card-desc">
-                Specialized white blood cell and stem cell collection services.
-                Working with leading biotechnology companies to advance emerging
-                stem cell protocols for longevity and regenerative medicine.
-              </p>
+              <div className="apheresis-card-body">
+                <h4 className="apheresis-card-title">
+                  Cellular Collections & Regenerative Research
+                </h4>
+                <p className="apheresis-card-desc">
+                  Specialized white blood cell and stem cell collection services.
+                  Working with leading biotechnology companies to advance emerging
+                  stem cell protocols for longevity and regenerative medicine.
+                </p>
+              </div>
             </div>
           </div>
         </div>

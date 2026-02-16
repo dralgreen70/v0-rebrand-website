@@ -174,15 +174,18 @@
 .apheresis-portfolio { margin-top: 5rem; padding-top: 4rem; border-top: 1px solid var(--border); }
 .apheresis-intro { font-size: 1.05rem; color: var(--text-secondary); line-height: 1.8; max-width: 720px; margin-bottom: 2.5rem; }
 .apheresis-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
-.apheresis-card { background: var(--navy); border: 1px solid rgba(255,255,255,0.06); border-radius: var(--radius); padding: 2rem; display: flex; flex-direction: column; gap: 0.75rem; transition: border-color 0.3s, transform 0.3s; }
-.apheresis-card:hover { border-color: rgba(8, 145, 178, 0.3); transform: translateY(-2px); }
-.apheresis-card-icon { width: 48px; height: 48px; border-radius: 50%; background: rgba(8, 145, 178, 0.1); display: flex; align-items: center; justify-content: center; margin-bottom: 0.25rem; }
-.apheresis-card-title { font-family: 'Instrument Serif', serif; font-size: 1.25rem; color: #fff; line-height: 1.3; }
-.apheresis-abbr { display: block; font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--accent-light); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 0.3rem; }
-.apheresis-card-desc { font-size: 0.88rem; color: rgba(255,255,255,0.55); line-height: 1.65; flex: 1; }
-.apheresis-badge { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.3rem 0.75rem; border-radius: 999px; margin-top: auto; width: fit-content; }
-.apheresis-badge-primary { background: rgba(8, 145, 178, 0.15); color: var(--accent-light); border: 1px solid rgba(8, 145, 178, 0.3); }
-.apheresis-badge-expanding { background: rgba(234, 179, 8, 0.1); color: #eab308; border: 1px solid rgba(234, 179, 8, 0.25); }
+.apheresis-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; transition: all 0.4s; }
+.apheresis-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.08); border-color: var(--accent-glow-strong); }
+.apheresis-card-header { height: 160px; background: var(--bg-dark); position: relative; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.apheresis-card-header::after { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(8,145,178,0.15), rgba(12,26,42,0.3)); z-index: 1; }
+.apheresis-card-icon { width: 56px; height: 56px; border-radius: 50%; background: rgba(8, 145, 178, 0.12); display: flex; align-items: center; justify-content: center; position: relative; z-index: 2; border: 1px solid rgba(8, 145, 178, 0.2); }
+.apheresis-card-body { padding: 1.75rem; flex: 1; display: flex; flex-direction: column; gap: 0.5rem; }
+.apheresis-card-title { font-family: 'Instrument Serif', serif; font-size: 1.15rem; color: var(--text); line-height: 1.3; }
+.apheresis-abbr { display: block; font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 0.3rem; }
+.apheresis-card-desc { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.65; flex: 1; margin-top: 0.25rem; }
+.apheresis-badge { display: inline-block; font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.3rem 0.75rem; border-radius: 999px; margin-top: 0.75rem; width: fit-content; }
+.apheresis-badge-primary { background: rgba(8, 145, 178, 0.1); color: var(--accent); border: 1px solid rgba(8, 145, 178, 0.2); }
+.apheresis-badge-expanding { background: rgba(234, 179, 8, 0.08); color: #a16207; border: 1px solid rgba(234, 179, 8, 0.2); }
 
 /* ===== BENEFITS GRID ===== */
 .benefits-section { background: var(--bg-alt); }
