@@ -65,7 +65,7 @@ export function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#contact" className="nav-cta-btn" onClick={closeNav}>
+            <a href="https://www.globalapheresis.com/free-consultation" target="_blank" rel="noopener noreferrer" className="nav-cta-btn" onClick={closeNav}>
               Discovery Call
             </a>
           </li>

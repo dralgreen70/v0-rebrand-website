@@ -21,7 +21,7 @@ export function HeroSection() {
           inflammation, and autoimmune disorders.
         </p>
         <div className="hero-actions">
-          <a href="#contact" className="btn btn-primary">
+          <a href="https://www.globalapheresis.com/free-consultation" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
             Book Discovery Call <span className="arrow">&rarr;</span>
           </a>
           <a href="#plex" className="btn btn-outline">
