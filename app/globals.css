@@ -251,7 +251,7 @@
 /* ===== BLOG ===== */
 .blog-section { background: var(--bg-alt); }
 .blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
-.blog-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; transition: all 0.4s; text-decoration: none; color: var(--text); display: flex; flex-direction: column; }
+.blog-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; transition: all 0.4s; text-decoration: none; color: var(--text); display: flex; flex-direction: column; position: relative; }
 .blog-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.08); border-color: var(--accent-glow-strong); }
 .blog-card-img { height: 180px; background: var(--bg-dark); position: relative; overflow: hidden; }
 .blog-card-img::after { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(8,145,178,0.15), rgba(12,26,42,0.3)); z-index: 1; }
@@ -260,6 +260,9 @@
 .blog-card h3 { font-size: 1rem; font-weight: 600; line-height: 1.4; margin-bottom: 0.75rem; color: var(--text); }
 .blog-card p { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; flex: 1; }
 .blog-card-link { font-size: 0.8rem; font-weight: 600; color: var(--accent); margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.4rem; }
+.blog-card-external-badge { position: absolute; top: 12px; right: 12px; z-index: 3; width: 30px; height: 30px; border-radius: 50%; background: rgba(8, 145, 178, 0.15); border: 1px solid rgba(8, 145, 178, 0.3); display: flex; align-items: center; justify-content: center; color: var(--accent-light); }
+.blog-card-meta { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem; }
+.blog-card-readtime { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: var(--accent); letter-spacing: 0.05em; }
 
 /* ===== CTA ===== */
 .cta-section { background: var(--bg-dark); color: white; text-align: center; padding: 8rem 4rem; position: relative; overflow: hidden; }
