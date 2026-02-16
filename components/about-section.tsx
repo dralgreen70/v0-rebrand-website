@@ -145,9 +145,13 @@ export function AboutSection() {
 
             <p style={{ fontSize: "0.95rem", color: "var(--text-secondary)", lineHeight: 1.7, marginTop: "1rem" }}>
               With over 500 TPE procedures focused on biological age reversal
-              and prevention of age-related diseases, Dr. Green is scaling
-              therapeutic plasma exchange through clinical practice, protocol
-              development, and physician education.
+              and prevention of age-related diseases, Dr. Green now serves as
+              Associate Medical Director at Global Apheresis, where he leads
+              clinical operations and research initiatives. He also serves as
+              medical director for Global Apheresis affiliate partnerships,
+              expanding access to evidence-based therapeutic apheresis nationwide
+              through clinical training, protocol development, and quality
+              oversight.
             </p>
 
             <a
