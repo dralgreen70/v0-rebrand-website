@@ -9,9 +9,9 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Dr. Allen P. Green, MD | Therapeutic Plasma Exchange Specialist",
+  title: "Dr. Allen Green MD – Global Apheresis | TPE & Apheresis Specialist",
   description:
-    "Dr. Allen P. Green, MD specializes in Therapeutic Plasma Exchange (PLEX), a groundbreaking procedure for health optimization and longevity.",
+    "Dr. Allen P. Green, MD — Associate Medical Director at Global Apheresis. Specialist in Therapeutic Plasma Exchange (TPE/PLEX), lipid apheresis, and cellular collections for longevity, health optimization, and preventative medicine.",
 }
 
 export default function RootLayout({

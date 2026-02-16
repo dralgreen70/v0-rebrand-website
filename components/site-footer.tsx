@@ -17,6 +17,8 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="footer-bottom">
+        Associate Medical Director, Global Apheresis | Board-Certified Clinical Pathologist
+        <br />
         &copy; 2026 Dr. Allen P. Green, MD. All rights reserved.
       </div>
     </footer>
