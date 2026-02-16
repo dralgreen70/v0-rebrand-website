@@ -1,10 +1,9 @@
 const items = [
-  { label: "Specialty", value: "Therapeutic Plasma Exchange" },
-  { label: "Training", value: "UT Southwestern" },
-  { label: "Focus", value: "Longevity & Health Optimization" },
-  { label: "Experience", value: "500+ PLEX Procedures" },
-  { label: "Research", value: "6+ Published Papers" },
-  { label: "Board", value: "Certified Clinical Pathologist" },
+  { label: "EXPERIENCE", value: "500+ Procedures" },
+  { label: "BOARD CERTIFIED", value: "Clinical Pathologist" },
+  { label: "SPECIALTY", value: "Apheresis" },
+  { label: "TRAINING", value: "UT Southwestern" },
+  { label: "RESEARCH", value: "6+ Published Papers" },
 ]
 
 function TickerItems() {
