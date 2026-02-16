@@ -45,7 +45,7 @@ export function HeroSection() {
         <canvas className="hero-canvas" id="heroCanvas" />
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Me%20and%20Amicus-RU258XCBzK0a5UscKJZ0wTrfpnBm5U.jpg"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/me_amicus-MZRtkfKGLeHHpGc0uTG48lLTobF3fj.jpeg"
           alt="Dr. Allen P. Green, MD with the Amicus Separator"
           style={{
             position: "absolute",
