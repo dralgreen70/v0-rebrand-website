@@ -47,7 +47,7 @@ export function BenefitsSection() {
               <span className="label-text">Transformative Results</span>
             </div>
             <h2 className="h-lg reveal">
-              How PLEX Transforms{" "}
+              How Therapeutic Plasma Exchange Transforms{" "}
               <span className="serif-italic accent-text">Your Health</span>
             </h2>
           </div>

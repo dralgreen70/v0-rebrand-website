@@ -29,10 +29,13 @@ export function PlexSection() {
               <span className="label-text">The Science</span>
             </div>
             <h2 className="h-lg">
-              What is <span className="serif-italic accent-text">PLEX?</span>
+              What is{" "}
+              <span className="serif-italic accent-text">
+                Therapeutic Plasma Exchange?
+              </span>
             </h2>
             <p className="body-lg" style={{ marginTop: "1.25rem" }}>
-              Therapeutic Plasma Exchange (PLEX or TPE) is a groundbreaking
+              Therapeutic Plasma Exchange (TPE/PLEX) is a groundbreaking
               procedure that removes old plasma and replaces it with a 5%
               albumin solution, a powerful antioxidant and anti-inflammatory
               compound.
@@ -81,7 +84,7 @@ export function PlexSection() {
               <div className="apheresis-card-body">
                 <h4 className="apheresis-card-title">
                   Therapeutic Plasma Exchange
-                  <span className="apheresis-abbr">TPE / PLEX</span>
+                  <span className="apheresis-abbr">TPE / PLEX &mdash; Flagship Service</span>
                 </h4>
                 <p className="apheresis-card-desc">
                   Complete plasma removal and replacement with 5% albumin solution

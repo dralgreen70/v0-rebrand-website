@@ -46,7 +46,7 @@ export function Navbar() {
           </li>
           <li>
             <a href="#plex" onClick={closeNav}>
-              What is PLEX?
+              What is TPE?
             </a>
           </li>
           <li>

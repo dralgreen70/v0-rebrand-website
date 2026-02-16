@@ -31,7 +31,7 @@ export function ProcessSection() {
               <span className="label-text">The Procedure</span>
             </div>
             <h2 className="h-lg reveal" style={{ color: "white" }}>
-              The PLEX{" "}
+              The Therapeutic Plasma Exchange{" "}
               <span
                 className="serif-italic"
                 style={{ color: "var(--accent-light)" }}

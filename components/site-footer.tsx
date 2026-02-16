@@ -7,7 +7,7 @@ export function SiteFooter() {
         </a>
         <ul className="footer-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#plex">What is PLEX?</a></li>
+          <li><a href="#plex">What is TPE?</a></li>
           <li><a href="#research">Research</a></li>
           <li><a href="#journal">Journal</a></li>
           <li><a href="https://www.globalapheresis.com/contact">Contact</a></li>
