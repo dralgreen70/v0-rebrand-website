@@ -10,7 +10,7 @@ export function SiteFooter() {
           <li><a href="#plex">What is PLEX?</a></li>
           <li><a href="#research">Research</a></li>
           <li><a href="#journal">Journal</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://www.globalapheresis.com/contact">Contact</a></li>
         </ul>
         <div className="footer-contact">
           <a href="mailto:info@drplexmd.com">info@drplexmd.com</a>
