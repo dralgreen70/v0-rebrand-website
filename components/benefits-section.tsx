@@ -6,13 +6,13 @@ const benefits = [
     delay: "reveal-d1",
   },
   {
-    icon: '<path d="M23 6l-9.5 9.5-5-5L1 18"/><path d="M17 6h6v6"/>',
+    icon: '<path d="M21.5 2v6h-6"/><path d="M2.5 22v-6h6"/><path d="M22.1 11.5A10 10 0 0 0 3.5 4.3l-1 1.2"/><path d="M1.9 12.5a10 10 0 0 0 18.6 7.2l1-1.2"/>',
     title: "Resets Body Systems",
     desc: "Restores optimal signaling between organs and tissues, resetting metabolic, immune, and regenerative systems to more youthful states of operation.",
     delay: "reveal-d2",
   },
   {
-    icon: '<path d="M22 12h-4l-3 9L9 3l-3 9H2"/>',
+    icon: '<polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/><polyline points="17 18 23 18 23 12"/>',
     title: "Reduces Inflammation",
     desc: "The 5% albumin solution provides powerful antioxidant and anti-inflammatory effects, combating chronic inflammation, a root cause of aging and disease.",
     delay: "reveal-d3",
@@ -24,13 +24,13 @@ const benefits = [
     delay: "reveal-d4",
   },
   {
-    icon: '<path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/>',
+    icon: '<polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/>',
     title: "Boosts Overall Health",
     desc: "Patients report increased energy, improved cognitive function, enhanced physical performance, and an overall sense of renewed vitality.",
     delay: "reveal-d5",
   },
   {
-    icon: '<circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>',
+    icon: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/>',
     title: "Combats Disease",
     desc: "By addressing underlying inflammatory and degenerative processes, PLEX helps prevent and manage chronic diseases while promoting longevity.",
     delay: "reveal-d5",
