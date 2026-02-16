@@ -107,7 +107,7 @@ export function AboutSection() {
                 lineHeight: 1.3,
               }}
             >
-              Board-Certified Clinical Pathologist & PLEX Specialist
+              Board-Certified Clinical Pathologist & Apheresis Specialist
             </p>
 
             <div
