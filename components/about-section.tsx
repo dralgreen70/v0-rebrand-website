@@ -8,67 +8,132 @@ const tags = [
 
 export function AboutSection() {
   return (
-    <section className="about-section site-section" id="about">
-      <div className="site-container">
-        <div className="about-grid">
-          <div className="about-photo reveal-left">
-            <div className="about-photo-frame">
+    <section id="about" style={{ background: "var(--bg)", padding: "7rem 4rem", position: "relative", zIndex: 1 }}>
+      <div style={{ maxWidth: 1300, margin: "0 auto" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "0.8fr 1fr", gap: "5rem", alignItems: "start" }}>
+          {/* LEFT: Photo */}
+          <div style={{ position: "relative" }}>
+            {/* Corner accent */}
+            <div
+              style={{
+                position: "absolute",
+                top: -10,
+                left: -10,
+                width: 80,
+                height: 80,
+                borderTop: "2px solid var(--accent)",
+                borderLeft: "2px solid var(--accent)",
+                zIndex: 2,
+              }}
+            />
+            {/* Photo */}
+            <div
+              style={{
+                aspectRatio: "3/4",
+                overflow: "hidden",
+                position: "relative",
+                background: "#ddd",
+              }}
+            >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dobri_and_I_GA-xWLrNYBYXjhg6A3hSnBJIr0tsauWLO.jpeg?v=2"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dobri_and_I_GA-xWLrNYBYXjhg6A3hSnBJIr0tsauWLO.jpeg"
                 alt="Dr. Allen P. Green with Dr. Dobri Kiprov at Global Apheresis"
-                loading="eager"
                 width={600}
                 height={800}
+                loading="eager"
+                fetchPriority="high"
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "cover",
                   objectPosition: "center 20%",
-                  position: "relative",
-                  zIndex: 2,
                   display: "block",
                 }}
               />
             </div>
-            <div className="about-photo-accent" />
-            <div className="about-tags">
+            {/* Tags */}
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginTop: "2rem" }}>
               {tags.map((t) => (
-                <span key={t} className="about-tag">
+                <span
+                  key={t}
+                  style={{
+                    padding: "0.4rem 1rem",
+                    background: "var(--accent-glow)",
+                    border: "1px solid rgba(8, 145, 178, 0.15)",
+                    fontSize: "0.7rem",
+                    fontWeight: 500,
+                    color: "var(--accent-dark)",
+                    letterSpacing: "0.03em",
+                  }}
+                >
                   {t}
                 </span>
               ))}
             </div>
           </div>
-          <div className="reveal-right">
-            <div className="section-label-line">
-              <span className="label-text">Meet Dr. Green</span>
+
+          {/* RIGHT: Text */}
+          <div>
+            <div style={{ display: "flex", alignItems: "center", gap: "0.75rem", marginBottom: "1rem" }}>
+              <span style={{ width: 35, height: 1.5, background: "var(--accent)", display: "block" }} />
+              <span
+                style={{
+                  fontFamily: "'JetBrains Mono', monospace",
+                  fontSize: "0.7rem",
+                  fontWeight: 500,
+                  letterSpacing: "0.15em",
+                  textTransform: "uppercase" as const,
+                  color: "var(--accent)",
+                }}
+              >
+                Meet Dr. Green
+              </span>
             </div>
-            <h2 className="h-lg">
+
+            <h2 style={{ fontFamily: "'Instrument Serif', serif", fontSize: "clamp(2rem, 4vw, 3.5rem)", fontWeight: 400, lineHeight: 1.15 }}>
               Dr. Allen P.{" "}
-              <span className="serif-italic accent-text">Green</span>
+              <span style={{ fontFamily: "'Instrument Serif', serif", fontStyle: "italic", color: "var(--accent)" }}>
+                Green
+              </span>
             </h2>
+
             <p
-              className="h-md"
               style={{
                 marginTop: "0.75rem",
                 color: "var(--text-secondary)",
                 fontWeight: 400,
+                fontSize: "clamp(1.2rem, 2vw, 1.6rem)",
+                lineHeight: 1.3,
               }}
             >
               Board-Certified Clinical Pathologist & PLEX Specialist
             </p>
-            <div className="about-quote">
+
+            <div
+              style={{
+                fontFamily: "'Instrument Serif', serif",
+                fontStyle: "italic",
+                fontSize: "1.35rem",
+                color: "var(--navy)",
+                lineHeight: 1.5,
+                margin: "2rem 0",
+                paddingLeft: "1.5rem",
+                borderLeft: "3px solid var(--accent)",
+              }}
+            >
               {
                 '"I envisioned becoming a \'super personal trainer\' who could optimize people\'s lives from every angle. This vision led me to medical school, and ultimately to therapeutic plasma exchange."'
               }
             </div>
-            <p className="body-md">
+
+            <p style={{ fontSize: "0.95rem", color: "var(--text-secondary)", lineHeight: 1.7 }}>
               {
                 "Dr. Green's path to medicine was unconventional. After serving in the Active Duty Air Force as a squadron physical training leader and working as a personal trainer, he realized he wanted to address health holistically. This led him to medical school and ultimately to specializing in clinical pathology and therapeutic plasma exchange."
               }
             </p>
-            <p className="body-md" style={{ marginTop: "1rem" }}>
+
+            <p style={{ fontSize: "0.95rem", color: "var(--text-secondary)", lineHeight: 1.7, marginTop: "1rem" }}>
               His fascination with PLEX began during medical school when he
               discovered its profound applications for longevity and{" "}
               {"Alzheimer's"} disease treatment. He completed his residency at
@@ -78,12 +143,13 @@ export function AboutSection() {
               Kiprov.
             </p>
 
-            <p className="body-md" style={{ marginTop: "1rem" }}>
+            <p style={{ fontSize: "0.95rem", color: "var(--text-secondary)", lineHeight: 1.7, marginTop: "1rem" }}>
               With over 100 TPE procedures focused on biological age reversal
               and prevention of age-related diseases, Dr. Green is scaling
               therapeutic plasma exchange through clinical practice, protocol
               development, and physician education.
             </p>
+
             <a
               href="#timeline"
               className="btn btn-outline"
