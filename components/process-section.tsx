@@ -60,7 +60,7 @@ export function ProcessSection() {
             2-4 hours. Most patients find the procedure comfortable and
             well-tolerated.
           </p>
-          <a href="#contact" className="btn btn-light">
+          <a href="https://www.globalapheresis.com/free-consultation" target="_blank" rel="noopener noreferrer" className="btn btn-light">
             Schedule a Call <span className="arrow">&rarr;</span>
           </a>
         </div>
