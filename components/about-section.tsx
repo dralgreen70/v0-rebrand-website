@@ -15,16 +15,19 @@ export function AboutSection() {
             <div className="about-photo-frame">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dobri_and_I_GA-xWLrNYBYXjhg6A3hSnBJIr0tsauWLO.jpeg"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dobri_and_I_GA-xWLrNYBYXjhg6A3hSnBJIr0tsauWLO.jpeg?v=2"
                 alt="Dr. Allen P. Green with Dr. Dobri Kiprov at Global Apheresis"
                 loading="eager"
+                width={600}
+                height={800}
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "cover",
-                  objectPosition: "center top",
+                  objectPosition: "center 20%",
                   position: "relative",
                   zIndex: 2,
+                  display: "block",
                 }}
               />
             </div>
