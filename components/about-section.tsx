@@ -15,8 +15,8 @@ export function AboutSection() {
             <div className="about-photo-frame">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Me%20and%20Amicus-wnEHnNPOb8JMhWe2ZoYwxZ6CwByj51.jpg"
-                alt="Dr. Allen P. Green, MD standing with the Amicus Separator apheresis machine"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dobri_and_I_GA-xWLrNYBYXjhg6A3hSnBJIr0tsauWLO.jpeg"
+                alt="Dr. Allen P. Green with Dr. Dobri Kiprov at Global Apheresis"
                 loading="eager"
                 style={{
                   width: "100%",
@@ -74,22 +74,7 @@ export function AboutSection() {
               established a professional relationship with pioneer Dr. Dobri
               Kiprov.
             </p>
-            <div style={{ marginTop: "1.5rem", borderRadius: "var(--radius)", overflow: "hidden", border: "1px solid var(--border)" }}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dobri_and_I_GA-xWLrNYBYXjhg6A3hSnBJIr0tsauWLO.jpeg"
-                alt="Dr. Allen P. Green with Dr. Dobri Kiprov at Global Apheresis"
-                loading="eager"
-                style={{
-                  width: "100%",
-                  height: "auto",
-                  display: "block",
-                }}
-              />
-              <div style={{ padding: "0.75rem 1rem", background: "var(--accent-glow)", fontSize: "0.8rem", color: "var(--text-secondary)" }}>
-                Dr. Green with Dr. Dobri Kiprov at Global Apheresis
-              </div>
-            </div>
+
             <p className="body-md" style={{ marginTop: "1rem" }}>
               With over 100 TPE procedures focused on biological age reversal
               and prevention of age-related diseases, Dr. Green is scaling
