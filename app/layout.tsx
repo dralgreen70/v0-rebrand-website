@@ -9,9 +9,24 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Dr. Allen Green MD – Global Apheresis | TPE & Apheresis Specialist",
+  title: "Dr. Allen P. Green, MD | Global Apheresis | Therapeutic Apheresis Specialist",
   description:
-    "Dr. Allen P. Green, MD — Associate Medical Director at Global Apheresis. Specialist in Therapeutic Plasma Exchange (TPE/PLEX), lipid apheresis, and cellular collections for longevity, health optimization, and preventative medicine.",
+    "Board-Certified Clinical Pathologist specializing in therapeutic plasma exchange, lipid apheresis, and cellular therapies for longevity and health optimization.",
+  openGraph: {
+    title: "Dr. Allen P. Green, MD | Global Apheresis | Therapeutic Apheresis Specialist",
+    description:
+      "Board-Certified Clinical Pathologist specializing in therapeutic plasma exchange, lipid apheresis, and cellular therapies for longevity and health optimization.",
+    images: [{ url: "/images/og-image.jpg" }],
+    url: "https://allenpgreenmd.com",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dr. Allen P. Green, MD | Therapeutic Apheresis Specialist",
+    description:
+      "Associate Medical Director at Global Apheresis. Specializing in TPE for longevity and health optimization.",
+    images: ["/images/og-image.jpg"],
+  },
 }
 
 export default function RootLayout({
