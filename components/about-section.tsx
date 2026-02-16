@@ -37,8 +37,8 @@ export function AboutSection() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dobri_and_I_GA-xWLrNYBYXjhg6A3hSnBJIr0tsauWLO.jpeg"
-                alt="Dr. Allen P. Green with Dr. Dobri Kiprov at Global Apheresis"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/me_vest-K4ilwJZtaGoqLcevptyR57VBISpd4P.png"
+                alt="Dr. Allen P. Green, MD - Board-Certified Clinical Pathologist"
                 width={600}
                 height={800}
                 loading="eager"
@@ -47,7 +47,7 @@ export function AboutSection() {
                   width: "100%",
                   height: "100%",
                   objectFit: "cover",
-                  objectPosition: "center 20%",
+                  objectPosition: "center top",
                   display: "block",
                 }}
               />
