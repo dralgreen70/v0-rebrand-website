@@ -5,7 +5,7 @@ author: "Dr. Allen P. Green"
 excerpt: "Understanding which biomarkers to track before and after therapeutic plasma exchange to measure your biological response and optimize treatment protocols."
 image: ""
 external: true
-externalUrl: "https://drplexmd.com/biomarkers-blood-tests-monitoring-health/"
+externalUrl: "https://drplexmd.com/the-biomarker-question-how-do-we-measure-success-with-therapeutic-plasma-exchange/"
 ---
 
 Understanding which biomarkers to track before and after therapeutic plasma exchange to measure your biological response and optimize treatment protocols.
