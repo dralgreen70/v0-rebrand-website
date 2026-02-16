@@ -11,9 +11,6 @@ export function TimelineSection() {
     <section className="timeline-section site-section" id="timeline">
       <div className="site-container">
         <div style={{ textAlign: "center", marginBottom: "2rem" }}>
-          <div className="section-label-line reveal" style={{ justifyContent: "center" }}>
-            <span className="label-text">Career Journey</span>
-          </div>
           <h2 className="h-lg reveal">
             Career <span className="serif-italic accent-text">Journey</span>
           </h2>
