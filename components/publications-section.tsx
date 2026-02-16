@@ -6,7 +6,7 @@ const pubs = [
     authors: "Yates SG, Hofmann SL, Ibrahim IF, Shen YMP, Green AP, Sarode R",
     journal: "Blood Vessels, Thrombosis & Hemostasis",
     desc: "Demonstrates a personalized approach to caplacizumab dosing guided by ADAMTS13 activity monitoring, optimizing treatment outcomes in iTTP.",
-    link: "#",
+    link: "https://doi.org/10.1016/j.bvth.2024.100010",
   },
   {
     type: "Journal Article",
