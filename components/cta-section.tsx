@@ -28,9 +28,6 @@ export function CTASection() {
           <a href="https://www.globalapheresis.com/free-consultation" target="_blank" rel="noopener noreferrer" className="btn btn-accent">
             Schedule Discovery Call <span className="arrow">&rarr;</span>
           </a>
-          <a href="mailto:info@drplexmd.com" className="btn btn-light">
-            Email Dr. Green, MD
-          </a>
         </div>
       </div>
     </section>
