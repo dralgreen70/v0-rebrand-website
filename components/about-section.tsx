@@ -37,7 +37,7 @@ export function AboutSection() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/me_vest-K4ilwJZtaGoqLcevptyR57VBISpd4P.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-02-15%20at%205.00.15%E2%80%AFPM-Nw0ijfDCdMrjQlLNRJWRc8Tm0Wy2Oa.png"
                 alt="Dr. Allen P. Green, MD - Board-Certified Clinical Pathologist"
                 width={600}
                 height={800}
