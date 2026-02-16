@@ -3,7 +3,7 @@ title: "My Journey to Global Apheresis"
 date: "2026-02-15"
 author: "Dr. Allen P. Green"
 excerpt: "How I joined the pioneering team advancing therapeutic apheresis for longevity and health optimization."
-image: ""
+image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Dobri_and_I_GA-xWLrNYBYXjhg6A3hSnBJIr0tsauWLO.jpeg"
 ---
 
 ## From Personal Trainer to Physician
