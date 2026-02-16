@@ -43,7 +43,7 @@ export function HeroSection() {
           </div>
           <div className="hero-trust-item">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1l2 4.5 5 .5-3.75 3.25L12.5 14 8 11.5 3.5 14l1.25-4.75L1 6l5-.5L8 1z" fill="var(--accent)" /></svg>
-            <span>100+ TPE Procedures Performed</span>
+            <span>500+ TPE Procedures Performed</span>
           </div>
         </div>
       </div>

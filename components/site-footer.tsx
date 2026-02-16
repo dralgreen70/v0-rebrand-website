@@ -12,9 +12,7 @@ export function SiteFooter() {
           <li><a href="#journal">Journal</a></li>
           <li><a href="https://www.globalapheresis.com/contact">Contact</a></li>
         </ul>
-        <div className="footer-contact">
-          <a href="mailto:info@drplexmd.com">info@drplexmd.com</a>
-        </div>
+
       </div>
       <div className="footer-bottom">
         Associate Medical Director, Global Apheresis | Board-Certified Clinical Pathologist

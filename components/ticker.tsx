@@ -2,7 +2,7 @@ const items = [
   { label: "Specialty", value: "Therapeutic Plasma Exchange" },
   { label: "Training", value: "UT Southwestern" },
   { label: "Focus", value: "Longevity & Health Optimization" },
-  { label: "Experience", value: "100+ PLEX Procedures" },
+  { label: "Experience", value: "500+ PLEX Procedures" },
   { label: "Research", value: "6+ Published Papers" },
   { label: "Board", value: "Certified Clinical Pathologist" },
 ]
