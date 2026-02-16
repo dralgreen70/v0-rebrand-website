@@ -100,30 +100,47 @@ export default function JournalPage() {
                       </svg>
                     </div>
                   )}
-                  <div
-                    className="blog-card-img"
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      color: "var(--accent-light)",
-                    }}
-                  >
-                    <svg
-                      width="32"
-                      height="32"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M14.5 2v6a2 2 0 0 0 2 2h6" />
-                      <path d="M16 18a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h8l6 6v8z" />
-                      <path d="M9 13h6" />
-                      <path d="M9 17h3" />
-                    </svg>
+                  <div className="blog-card-img">
+                    {post.frontmatter.image ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={post.frontmatter.image}
+                        alt={post.frontmatter.title}
+                        style={{
+                          width: "100%",
+                          height: "100%",
+                          objectFit: "cover",
+                          display: "block",
+                        }}
+                      />
+                    ) : (
+                      <div
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          width: "100%",
+                          height: "100%",
+                          color: "var(--accent-light)",
+                        }}
+                      >
+                        <svg
+                          width="32"
+                          height="32"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M14.5 2v6a2 2 0 0 0 2 2h6" />
+                          <path d="M16 18a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h8l6 6v8z" />
+                          <path d="M9 13h6" />
+                          <path d="M9 17h3" />
+                        </svg>
+                      </div>
+                    )}
                   </div>
                   <div className="blog-card-body">
                     <div className="blog-card-meta">
