@@ -219,6 +219,8 @@
 .timeline-content { background: var(--card); padding: 1.75rem; border: 1px solid var(--border); border-radius: var(--radius); }
 .timeline-content h4 { font-size: 1.05rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--text); }
 .timeline-content p { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; }
+.timeline-with-photo { display: grid; grid-template-columns: 1fr 340px; gap: 3rem; align-items: start; }
+.timeline-photo { display: block; }
 
 /* ===== PUBLICATIONS ===== */
 .publications-section { background: var(--bg); }
@@ -287,6 +289,8 @@
   .about-grid { grid-template-columns: 1fr; gap: 3rem; }
   .about-photo { max-width: 350px; margin: 0 auto; }
   .blog-grid { grid-template-columns: 1fr; }
+  .timeline-with-photo { grid-template-columns: 1fr; }
+  .timeline-photo { max-width: 340px; margin: 0 auto; }
   .timeline::before { left: 20px; }
   .timeline-item { grid-template-columns: auto 1fr; gap: 1rem; }
   .timeline-year { text-align: left; grid-row: 1; grid-column: 1 / -1; padding-left: 2.5rem; }
@@ -338,6 +342,8 @@
   .about-photo { max-width: 260px; }
   .about-photo-accent { display: none; }
   .about-quote { font-size: 1.15rem; padding-left: 1.25rem; margin: 1.5rem 0; }
+  .timeline-with-photo { grid-template-columns: 1fr; gap: 2rem; }
+  .timeline-photo { max-width: 100%; order: -1; }
   .timeline::before { left: 14px; }
   .timeline-item { grid-template-columns: 1fr; gap: 0; padding-left: 2.5rem; position: relative; margin-bottom: 2rem; }
   .timeline-dot-wrapper { position: absolute; left: 0; top: 0; }
