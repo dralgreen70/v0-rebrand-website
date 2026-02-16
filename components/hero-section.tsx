@@ -43,15 +43,24 @@ export function HeroSection() {
       </div>
       <div className="hero-right">
         <canvas className="hero-canvas" id="heroCanvas" />
-        <div className="hero-visual">
-          <div className="hero-visual-circle">
-            <div className="hero-visual-inner">
-              <div className="hero-visual-initials">AG</div>
-              <div className="hero-visual-name">Dr. Allen P. Green</div>
-              <div className="hero-visual-title">
-                {'Board-Certified Clinical Pathologist'}
-              </div>
-            </div>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Me%20and%20Amicus-RU258XCBzK0a5UscKJZ0wTrfpnBm5U.jpg"
+          alt="Dr. Allen P. Green, MD with the Amicus Separator"
+          style={{
+            position: "absolute",
+            inset: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition: "center top",
+            zIndex: 1,
+          }}
+        />
+        <div className="hero-visual" style={{ zIndex: 2 }}>
+          <div className="hero-visual-name">Dr. Allen P. Green, MD</div>
+          <div className="hero-visual-title">
+            {'Board-Certified Clinical Pathologist'}
           </div>
         </div>
       </div>
