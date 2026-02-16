@@ -19,21 +19,7 @@ export function TimelineSection() {
           </h2>
         </div>
         <div className="timeline-with-photo">
-          <div className="timeline">
-            {events.map((e, i) => (
-              <div key={i} className="timeline-item reveal">
-                <div className="timeline-year">{e.year}</div>
-                <div className="timeline-dot-wrapper">
-                  <div className="timeline-dot" />
-                </div>
-                <div className="timeline-content">
-                  <h4>{e.title}</h4>
-                  <p>{e.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="timeline-photo reveal-right">
+          <div className="timeline-photo reveal-left">
             <div style={{
               position: "sticky",
               top: "6rem",
@@ -62,6 +48,20 @@ export function TimelineSection() {
                 <span style={{ fontWeight: 600, color: "var(--text)" }}>With Dr. Dobri Kiprov</span> at Global Apheresis — a pioneer in therapeutic plasma exchange and key mentor in Dr. {"Green's"} career.
               </div>
             </div>
+          </div>
+          <div className="timeline">
+            {events.map((e, i) => (
+              <div key={i} className="timeline-item reveal">
+                <div className="timeline-year">{e.year}</div>
+                <div className="timeline-dot-wrapper">
+                  <div className="timeline-dot" />
+                </div>
+                <div className="timeline-content">
+                  <h4>{e.title}</h4>
+                  <p>{e.desc}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
