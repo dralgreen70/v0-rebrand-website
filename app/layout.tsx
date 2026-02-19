@@ -36,14 +36,14 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap"
           rel="stylesheet"
         />
       </head>
-      <body className={`${outfit.variable} ${jetbrainsMono.variable}`}>
+      <body className={`${outfit.variable} ${jetbrainsMono.variable}`} suppressHydrationWarning>
         {children}
         <Analytics />
       </body>
