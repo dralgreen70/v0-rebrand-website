@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { Outfit, JetBrains_Mono } from "next/font/google"
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css"
 
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" })
@@ -44,6 +45,7 @@ export default function RootLayout({
       </head>
       <body className={`${outfit.variable} ${jetbrainsMono.variable}`}>
         {children}
+        <Analytics />
       </body>
     </html>
   )
