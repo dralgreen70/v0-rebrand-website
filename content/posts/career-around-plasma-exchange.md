@@ -14,7 +14,7 @@ Not as a metaphor. As a hypothesis.
 
 I'd been following the parabiosis research — the studies connecting old and young animals and watching aging transfer between them through shared circulation. The science was pointing at something that felt almost too simple: aging isn't just happening to your cells in isolation. It's happening in your blood. It's systemic. It's fluid. Which meant, theoretically, it could be addressed.
 
-One name kept appearing on the studies that mattered most. [Dr. Dobri Kiprov](https://www.globalapheresis.com). And he wasn't just publishing — he was promoting therapeutic plasma exchange as a clinical response to what the research was showing.
+One name kept appearing on the studies that mattered most. [Dr. Dobri Kiprov](https://www.dobrikiprov.com). And he wasn't just publishing — he was promoting therapeutic plasma exchange as a clinical response to what the research was showing.
 
 That clicked for me in a way I couldn't ignore.
 
@@ -28,7 +28,7 @@ Not dismissively. Actually laughed.
 
 Years later, when circumstances led me to apply for a fellowship at the same program, that same mentor turned me down. His stated reason: my goals did not align with the program's.
 
-He was right. They didn't. My goals were to actually treat patients with what the [evidence](/#research) already showed was possible. His program wasn't interested in that.
+He was right. They didn't. My goals were to actually treat patients with what the [evidence](https://www.dobrikiprov.com/publications) already showed was possible. His program wasn't interested in that.
 
 ---
 
@@ -51,11 +51,11 @@ When the opportunity came to join him at [Global Apheresis](https://www.globalap
 
 I'm a board-certified clinical pathologist who specialized in [therapeutic apheresis](/#plex) specifically because I believed the science pointed here. I've spent years training for exactly this. And now I work alongside the person whose work convinced me this was worth spending a career on.
 
-What we offer at Global Apheresis is grounded in [published, peer-reviewed research](/#research) — and that research is no longer a single study. It has been replicated.
+What we offer at Global Apheresis is grounded in [published, peer-reviewed research](https://www.dobrikiprov.com/publications) — and that research is no longer a single study. It has been replicated.
 
-**For Alzheimer's disease:** the [AMBAR trial](https://pubmed.ncbi.nlm.nih.gov/36351776/) demonstrated 52-71% slowing of cognitive and functional decline. In 2025, [Taragano and colleagues published a real-world cohort study](https://pubmed.ncbi.nlm.nih.gov/39694040/) in the Journal of Alzheimer's Disease showing independent confirmation of those results — 45% less cognitive decline and 88% less memory deterioration compared to controls, in a completely separate patient population in Argentina. The AMBAR results were not a one-off. They held in the real world.
+**For Alzheimer's disease:** the [AMBAR trial](https://pubmed.ncbi.nlm.nih.gov/32715623/) demonstrated 52-71% slowing of cognitive and functional decline. In 2025, [Taragano and colleagues published a real-world cohort study](https://pubmed.ncbi.nlm.nih.gov/40928812/) in the Journal of Alzheimer's Disease showing independent confirmation of those results — 45% less cognitive decline and 88% less memory deterioration compared to controls, in a completely separate patient population in Argentina. The AMBAR results were not a one-off. They held in the real world.
 
-**For biological age reversal:** the [GeroScience study](https://pubmed.ncbi.nlm.nih.gov/34910163/) showed measurable reduction in biological age following therapeutic plasma exchange. In 2025, a [randomized placebo-controlled multi-omics trial](https://pubmed.ncbi.nlm.nih.gov/39676020/) published in Aging Cell — conducted with the Buck Institute for Research on Aging, with Dr. Kiprov as co-author — confirmed and extended those findings. Fifteen separate epigenetic clocks showed significant rejuvenation compared to placebo. The age reduction was not a fluke. It was reproducible, measurable, and mechanistically explained across the epigenome, proteome, metabolome, and immune system.
+**For biological age reversal:** the [GeroScience study](https://pubmed.ncbi.nlm.nih.gov/35999337/) showed measurable reduction in biological age following therapeutic plasma exchange. In 2025, a [randomized placebo-controlled multi-omics trial](https://pubmed.ncbi.nlm.nih.gov/40424097/) published in Aging Cell — conducted with the Buck Institute for Research on Aging, with Dr. Kiprov as co-author — confirmed and extended those findings. Fifteen separate epigenetic clocks showed significant rejuvenation compared to placebo. The age reduction was not a fluke. It was reproducible, measurable, and mechanistically explained across the epigenome, proteome, metabolome, and immune system.
 
 The science exists. The replications exist. The outcomes are documented.
 
