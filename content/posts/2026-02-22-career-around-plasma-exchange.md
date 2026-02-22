@@ -3,7 +3,7 @@ title: "Why I Built My Career Around Therapeutic Plasma Exchange"
 date: "2026-02-22"
 author: "Dr. Allen P. Green"
 excerpt: "How following the science of aging in blood led me to Dr. Dobri Kiprov and Global Apheresis—and why I chose to treat patients rather than wait for academia to catch up."
-image: "/images/blog/dobri-and-i-ga.jpg"
+image: "/images/dobri-and-i-ga.jpg"
 ---
 
 # Why I Built My Career Around Therapeutic Plasma Exchange
@@ -46,7 +46,7 @@ Academia won't treat aging. It will study it indefinitely, and patients will wai
 
 When the opportunity came to join him at [Global Apheresis](https://www.globalapheresis.com), I didn't hesitate.
 
-![Dr. Allen Green and Dr. Dobri Kiprov at Global Apheresis](/images/blog/dobri-and-i-ga.jpg)
+![Dr. Allen Green and Dr. Dobri Kiprov at Global Apheresis](/images/dobri-and-i-ga.jpg)
 *Working alongside Dr. Dobri Kiprov at Global Apheresis*
 
 I'm a board-certified clinical pathologist who specialized in [therapeutic apheresis](/#plex) specifically because I believed the science pointed here. I've spent years training for exactly this. And now I work alongside the person whose work convinced me this was worth spending a career on.
