@@ -46,8 +46,8 @@ Academia won't treat aging. It will study it indefinitely, and patients will wai
 
 When the opportunity came to join him at [Global Apheresis](https://www.globalapheresis.com), I didn't hesitate.
 
-![Dr. Allen Green and Dr. Dobri Kiprov at Global Apheresis](/images/dobri-and-i-ga.jpg)
-*Working alongside Dr. Dobri Kiprov at Global Apheresis*
+<img src="/images/dobri-and-i-ga.jpg" alt="Dr. Allen Green and Dr. Dobri Kiprov at Global Apheresis" style="width: 100%; max-width: 800px; height: auto; margin: 2rem 0;" />
+<p style="text-align: center; font-style: italic; margin-top: -1rem; color: #666;">Working alongside Dr. Dobri Kiprov at Global Apheresis</p>
 
 I'm a board-certified clinical pathologist who specialized in [therapeutic apheresis](/#plex) specifically because I believed the science pointed here. I've spent years training for exactly this. And now I work alongside the person whose work convinced me this was worth spending a career on.
 
