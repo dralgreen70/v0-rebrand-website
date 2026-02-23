@@ -55,7 +55,7 @@ export default async function BlogPostPage({
   const htmlContent = markdownToHtml(post.content)
   const relatedPosts = getRelatedPosts(slug, 3)
 
-  const shareUrl = `https://drallengreenmd.com/journal/${slug}`
+  const shareUrl = `https://allenpgreenmd.com/journal/${slug}`
   const shareTitle = encodeURIComponent(post.frontmatter.title)
   const shareText = encodeURIComponent(post.frontmatter.excerpt)
 
